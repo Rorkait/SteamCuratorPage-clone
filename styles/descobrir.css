@@ -1,0 +1,64 @@
+.game-profile{
+    position: relative;
+    padding: 10px;
+    width: 50%;
+
+}
+.game-profile p{
+    position: relative;
+}
+figcaption{
+    color: #acdbf5;
+    background-color: rgba(20,31,44,0.4);
+    position: absolute;
+    bottom: 13px;
+    right: 10px;
+    padding: 5px;
+}
+
+.game-pictures{
+    width: 50%;
+    
+}
+
+.game-pictures img{
+    width: 95%;
+    margin: 0;
+
+}
+.game-pictures-container{
+    width: 50%;
+    position: relative;
+}
+.prices{
+    color: #acdbf5;
+    background-color: rgba(20,31,44,0.4);
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    padding: 5px;
+}
+@media only screen and (max-width:569px) {
+    .card-container{
+        flex-direction: column;
+    }
+    .game-profile{
+        position: relative;
+        padding: 10px;
+        width: 100%;
+    
+    }
+
+    .game-pictures{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+
+    }
+    .game-pictures img{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    
+}
